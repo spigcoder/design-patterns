@@ -7,7 +7,7 @@
 | 章 | 模式 | 目录 | 状态 |
 |---|---|---|---|
 | 1 | Strategy 策略 | [`01-strategy`](./01-strategy) | ✅ |
-| 2 | Observer 观察者 | `02-observer` | ⬜ |
+| 2 | Observer 观察者 | [`02-observer`](./02-observer) | ✅ |
 | 3 | Decorator 装饰者 | `03-decorator` | ⬜ |
 | 4 | Factory Method / Abstract Factory 工厂 | `04-factory` | ⬜ |
 | 5 | Singleton 单件 | `05-singleton` | ⬜ |
@@ -37,6 +37,7 @@
 
 ```bash
 go test ./...                 # 跑所有模式的测试
+go test -race ./...           # 带竞态检测（观察者那章开始必须跑）
 go run ./01-strategy/demo     # 跑某个模式的演示
 go vet ./... && gofmt -l .    # 体检
 ```
@@ -58,3 +59,4 @@ go vet ./... && gofmt -l .    # 体检
 - 封装变化：找出应用中可能需要变化之处，把它们独立出来，不要和那些不需要变化的代码混在一起。（Ch.1）
 - 针对接口编程，而不是针对实现编程。（Ch.1）
 - 多用组合，少用继承。（Ch.1）
+- 为交互对象之间的松耦合设计而努力。（Ch.2）
