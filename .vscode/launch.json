@@ -1,0 +1,7 @@
+   {
+     "name": "运行当前文件所在包",
+     "type": "go",
+     "request": "launch",
+     "mode": "auto",
+     "program": "${fileDirname}"
+   }
