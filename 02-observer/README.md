@@ -140,7 +140,7 @@ go run ./02-observer/demo
 - **拉（pull）**：`Update()` 不带参数，观察者自己调用 `subject.Measurement()` 去取。
   测试 `TestObserverCanCallSubjectInsideUpdate` 里的 `pullingObserver` 就是这么干的。
 
-书里说推模型"被认为更正确"（观察者不需要知道主题的细节），但实际上拉模型更灵活：
+书里说拉模型"被认为更正确"（观察者不需要知道主题的细节），但实际上拉模型更灵活：
 观察者可以只取自己需要的字段，主题也不用担心"要推什么"。**本实现把两种都留了口子**：
 `Update` 带数据（推），`Measurement()` 是公开 getter（拉）。
 

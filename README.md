@@ -8,7 +8,7 @@
 |---|---|---|---|
 | 1 | Strategy 策略 | [`01-strategy`](./01-strategy) | ✅ |
 | 2 | Observer 观察者 | [`02-observer`](./02-observer) | ✅ |
-| 3 | Decorator 装饰者 | `03-decorator` | ⬜ |
+| 3 | Decorator 装饰者 | [`03-decorator`](./03-decorator) | ✅ |
 | 4 | Factory Method / Abstract Factory 工厂 | `04-factory` | ⬜ |
 | 5 | Singleton 单件 | `05-singleton` | ⬜ |
 | 6 | Command 命令 | `06-command` | ⬜ |
@@ -60,3 +60,4 @@ go vet ./... && gofmt -l .    # 体检
 - 针对接口编程，而不是针对实现编程。（Ch.1）
 - 多用组合，少用继承。（Ch.1）
 - 为交互对象之间的松耦合设计而努力。（Ch.2）
+- 类应该对扩展开放，对修改关闭。（Ch.3）
