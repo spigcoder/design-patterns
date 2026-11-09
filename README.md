@@ -12,14 +12,14 @@
 | 4 | Factory Method / Abstract Factory 工厂 | [`04-factory`](./04-factory) | ✅ |
 | 5 | Singleton 单件 | `05-singleton` | ⏭ 跳过（自评已掌握） |
 | 6 | Command 命令 | [`06-command`](./06-command) | ✅ |
-| 7 | Adapter / Facade 适配器与外观 | `07-adapter-facade` | ⬜ |
-| 8 | Template Method 模板方法 | `08-template-method` | ⬜ |
-| 9 | Iterator / Composite 迭代器与组合 | `09-iterator-composite` | ⬜ |
-| 10 | State 状态 | `10-state` | ⬜ |
-| 11 | Proxy 代理 | `11-proxy` | ⬜ |
-| 12 | 复合模式（鸭子模拟器） | `12-compound` | ⬜ |
-| 13 | 真实世界中的模式（MVC） | `13-mvc` | ⬜ |
-| 14 | 附录：剩余模式（Bridge/Builder/CoR/Flyweight/Interpreter/Mediator/Memento/Prototype/Visitor） | `14-leftover` | ⬜ |
+| 7 | Adapter / Facade 适配器与外观 | `07-adapter-facade` | ⏭ 速览（见 [SURVEY.md](./SURVEY.md)） |
+| 8 | Template Method 模板方法 | `08-template-method` | ⏭ 速览（其实 Ch.4 已用到） |
+| 9 | Iterator / Composite 迭代器与组合 | `09-iterator-composite` | ⏭ 速览 |
+| 10 | State 状态 | `10-state` | ⏭ 速览（与 Strategy 是双胞胎） |
+| 11 | Proxy 代理 | `11-proxy` | ⏭ 速览 |
+| 12 | 复合模式（鸭子模拟器） | `12-compound` | ⏭ 速览 |
+| 13 | 真实世界中的模式（MVC） | `13-mvc` | ⏭ 速览 |
+| 14 | 附录：剩余模式（Bridge/Builder/CoR/Flyweight/Interpreter/Mediator/Memento/Prototype/Visitor） | `14-leftover` | ⏭ 速览 |
 
 ## 目录约定
 
